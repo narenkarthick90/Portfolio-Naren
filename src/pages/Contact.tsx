@@ -55,29 +55,29 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "your.email@example.com",
-      link: "mailto:your.email@example.com",
+      value: "narenkarthick1405@gmail.com",
+      link: "mailto:narenkarthick1405@gmail.com",
       description: "Best for detailed inquiries"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
-      description: "Available Mon-Fri, 9AM-6PM PST"
+      value: "Available on request",
+      link: "#",
+      description: "Contact via email first"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Namakkal, Tamil Nadu, India",
       link: "https://maps.google.com",
       description: "Open to remote opportunities"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "/in/yourprofile",
-      link: "https://linkedin.com/in/yourprofile",
+      value: "/in/naren-karthick-ambika-kesavan",
+      link: "https://www.linkedin.com/in/naren-karthick-ambika-kesavan-1517602b5",
       description: "Professional networking"
     }
   ];
@@ -273,11 +273,11 @@ export default function Contact() {
                   </div>
                   <div className="flex justify-between">
                     <span>Time Zone:</span>
-                    <span className="text-muted-foreground">PST (UTC-8)</span>
+                    <span className="text-muted-foreground">IST (UTC+5:30)</span>
                   </div>
                   <div className="flex justify-between">
-                    <span>Best Time to Call:</span>
-                    <span className="text-muted-foreground">9AM-6PM PST</span>
+                    <span>Best Time to Contact:</span>
+                    <span className="text-muted-foreground">9AM-10PM IST</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Status:</span>
@@ -300,7 +300,7 @@ export default function Contact() {
                   </a>
                 </Button>
                 <Button variant="outline" className="w-full justify-start" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/naren-karthick-ambika-kesavan-1517602b5" target="_blank" rel="noopener noreferrer">
                     <Linkedin className="h-4 w-4 mr-2" />
                     LinkedIn Profile
                   </a>

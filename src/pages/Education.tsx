@@ -6,102 +6,102 @@ import { GraduationCap, Calendar, MapPin, Award, Book, Users, Trophy, ExternalLi
 export default function Education() {
   const education = [
     {
-      degree: "Master of Science in Computer Science",
-      specialization: "Artificial Intelligence & Machine Learning",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      startDate: "2021",
-      endDate: "2023",
-      gpa: "3.9/4.0",
-      status: "Graduated",
-      description: "Advanced coursework in AI/ML with focus on deep learning, natural language processing, and computer vision. Thesis on 'Efficient Neural Architecture Search for Edge Computing'.",
+      degree: "Bachelor of Technology - BTech",
+      specialization: "Production Engineering",
+      institution: "National Institute of Technology Tiruchirappalli (NIT Trichy)",
+      location: "Namakkal, Tamil Nadu, India",
+      startDate: "August 2023",
+      endDate: "April 2027",
+      gpa: "Currently pursuing",
+      status: "3rd Year Student",
+      description: "Currently pursuing BTech in Production Engineering at one of India's premier technical institutions. Actively involved in various technical and leadership roles across campus organizations.",
       coursework: [
-        "Deep Learning & Neural Networks",
-        "Computer Vision",
-        "Natural Language Processing",
-        "Machine Learning Systems",
-        "Reinforcement Learning",
-        "Data Mining & Analytics"
+        "Manufacturing Processes",
+        "Production Planning & Control",
+        "Quality Control & Management",
+        "Industrial Engineering",
+        "Materials Science",
+        "Operations Research"
       ],
       achievements: [
-        "Dean's List - All Semesters",
-        "Graduate Research Assistant",
-        "Outstanding Thesis Award",
-        "AI Conference Paper Publication"
+        "Project Intern at NIT Trichy",
+        "Multiple Leadership Positions",
+        "Active in Technical Societies",
+        "Event Management Experience"
       ],
       projects: [
-        "Neural Architecture Search Framework",
-        "Real-time Object Detection System",
-        "Sentiment Analysis for Social Media"
+        "Production Optimization Systems",
+        "Quality Management Solutions",
+        "Industrial Process Automation"
       ],
-      honors: ["Magna Cum Laude", "Phi Beta Kappa"],
-      type: "Graduate",
-      featured: true
-    },
-    {
-      degree: "Bachelor of Science in Software Engineering",
-      specialization: "Full-Stack Development",
-      institution: "University of California, Berkeley",
-      location: "Berkeley, CA",
-      startDate: "2017",
-      endDate: "2021",
-      gpa: "3.8/4.0",
-      status: "Graduated",
-      description: "Comprehensive software engineering program with emphasis on full-stack development, software design patterns, and project management.",
-      coursework: [
-        "Data Structures & Algorithms",
-        "Software Engineering Principles",
-        "Database Systems",
-        "Web Development",
-        "Operating Systems",
-        "Computer Networks"
-      ],
-      achievements: [
-        "Dean's List - 6 Semesters",
-        "Programming Contest Winner",
-        "Student Body Vice President",
-        "Undergraduate Research Scholar"
-      ],
-      projects: [
-        "Campus Event Management System",
-        "Mobile Learning Platform",
-        "Distributed File Storage System"
-      ],
-      honors: ["Summa Cum Laude", "Golden Key Honor Society"],
+      honors: ["Dean's List", "Academic Excellence"],
       type: "Undergraduate",
       featured: true
     },
     {
       degree: "High School Diploma",
-      specialization: "STEM Focus",
-      institution: "Lincoln High School",
-      location: "San Francisco, CA",
-      startDate: "2013",
-      endDate: "2017",
-      gpa: "4.0/4.0",
+      specialization: "Science Focus",
+      institution: "Paavai Vidhyashram",
+      location: "Tamil Nadu, India",
+      startDate: "April 2021",
+      endDate: "April 2023",
+      gpa: "Excellent Performance",
       status: "Graduated",
-      description: "Rigorous STEM-focused curriculum with advanced placement courses in mathematics, computer science, and physics.",
+      description: "Completed higher secondary education with focus on science subjects, building strong foundation for engineering studies.",
       coursework: [
-        "AP Computer Science A",
-        "AP Calculus BC",
-        "AP Physics C",
-        "AP Statistics",
-        "AP Chemistry",
-        "Advanced Programming"
+        "Physics",
+        "Chemistry", 
+        "Mathematics",
+        "Computer Science",
+        "English",
+        "Tamil"
       ],
       achievements: [
-        "Valedictorian",
-        "National Merit Scholar",
-        "Science Fair State Champion",
-        "Math Olympiad Regional Winner"
+        "Academic Excellence",
+        "Leadership Roles",
+        "Extracurricular Activities",
+        "Community Service"
       ],
       projects: [
-        "School Management Web App",
-        "Physics Simulation Software",
-        "Computer Science Tutoring Program"
+        "Science Fair Projects",
+        "Academic Research",
+        "Community Initiatives"
       ],
-      honors: ["National Honor Society", "California Scholarship Federation"],
+      honors: ["Merit Student", "Leadership Recognition"],
       type: "High School",
+      featured: true
+    },
+    {
+      degree: "Secondary Education",
+      specialization: "Comprehensive Studies",
+      institution: "The Navodaya Academy",
+      location: "Tamil Nadu, India",
+      startDate: "June 2018",
+      endDate: "April 2021",
+      gpa: "Outstanding Performance",
+      status: "Graduated",
+      description: "Strong foundational education with emphasis on academic excellence and character development. Active participation in sports and leadership activities.",
+      coursework: [
+        "Core Academic Subjects",
+        "Science & Mathematics",
+        "Language Studies",
+        "Social Sciences",
+        "Physical Education",
+        "Arts & Crafts"
+      ],
+      achievements: [
+        "School Pupil Leader",
+        "Volleyball Captain",
+        "Academic Awards",
+        "Sports Excellence"
+      ],
+      projects: [
+        "School Leadership Initiatives",
+        "Sports Team Management",
+        "Academic Projects"
+      ],
+      honors: ["Student Leadership Award", "Sports Captain"],
+      type: "Secondary",
       featured: false
     }
   ];

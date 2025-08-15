@@ -23,12 +23,12 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Hi, I'm{" "}
               <span className="bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-                [Your Name]
+                Naren Karthick
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
-              A passionate developer creating innovative solutions and beautiful digital experiences.
-              Let's build something amazing together.
+              Engineer in progress. Builder by curiosity. Marketer on weekends. 
+              Storyteller in between. A hands-on learner who loves experimenting with ideas.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-white text-primary hover:bg-white/90 shadow-glow">
@@ -49,10 +49,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: "50+", label: "Projects Completed" },
-              { number: "5+", label: "Years Experience" },
-              { number: "20+", label: "Technologies" },
-              { number: "100+", label: "Happy Clients" },
+              { number: "15+", label: "Leadership Roles" },
+              { number: "3+", label: "Years at NIT Trichy" },
+              { number: "5+", label: "Organizations" },
+              { number: "10+", label: "Certifications" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-primary mb-2">
