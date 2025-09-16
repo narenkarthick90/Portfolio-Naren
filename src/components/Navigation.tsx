@@ -15,8 +15,8 @@ const navItems = [
 ];
 
 const externalLinks = [
-  { name: "Resume", href: "#", icon: ExternalLink },
-  { name: "LinkedIn", href: "#", icon: ExternalLink },
+  { name: "Resume", href: "https://drive.google.com/file/d/1ZZVlGXgZNQuA8vxEvLm9uJ29bRJQ2a-h/view?usp=sharing", icon: ExternalLink },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/naren-karthick-ambika-kesavan-1517602b5/", icon: ExternalLink },
   { name: "CV", href: "#", icon: ExternalLink },
 ];
 
