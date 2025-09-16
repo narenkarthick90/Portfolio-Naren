@@ -63,11 +63,11 @@ export const AIChat = () => {
   const generateAIResponse = async (userInput: string): Promise<string> => {
     // Portfolio-specific responses
     const portfolioKnowledge = {
-      "skills": "I have expertise in React, TypeScript, Node.js, Python, AI/ML, AWS, and many other technologies. I'm particularly passionate about full-stack development and AI applications.",
+      "skills": "I have expertise in React, TypeScript, Node.js, Python, AI/ML, and many other technologies. I'm particularly passionate about Machine Learning and AI applications.",
       "projects": "My portfolio includes an e-commerce platform, AI-powered analytics dashboard, IoT home automation system, and several other full-stack applications. Each project showcases different technologies and problem-solving approaches.",
-      "experience": "I have over 5 years of development experience, including both individual and team projects. I've worked with various technologies and am always learning new ones.",
-      "education": "I hold a Master's degree in Computer Science with specialization in AI/ML from Stanford University, and a Bachelor's in Software Engineering from UC Berkeley.",
-      "certificates": "I have multiple professional certifications including AWS Solutions Architect, Google Cloud Professional Developer, and Meta React Developer, among others.",
+      "experience": "I have over 2 years of development experience, including both individual and team projects. I've worked with various technologies and am always learning new ones.",
+      "education": "I hold a certificate specializing in AI/ML from Stanford University, and a Bachelor's in Production Engineering from NIT Tiruchirappalli.",
+      "certificates": "I have multiple professional certifications including AWS Solutions Architect Job Simulation, Machine Learning Specialization, and Meta React Developer, among others.",
       "contact": "You can reach me through the contact form on this website, via email, LinkedIn, or phone. I typically respond within 24 hours.",
     };
 
@@ -93,7 +93,7 @@ export const AIChat = () => {
     const fallbackResponses = [
       "That's an interesting question! Based on this portfolio, I can tell you that the developer has strong expertise in modern web technologies and AI/ML.",
       "From what I can see in this portfolio, there's a great focus on creating user-centered solutions with cutting-edge technologies.",
-      "This portfolio showcases a diverse range of projects from e-commerce platforms to AI applications. Is there something specific you'd like to know more about?",
+      "This portfolio showcases a diverse range of projects. Is there something specific you'd like to know more about?",
       "I'd be happy to help you learn more about the skills, projects, or experience showcased in this portfolio. What interests you most?",
     ];
 
